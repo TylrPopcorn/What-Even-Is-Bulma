@@ -1,0 +1,415 @@
+<!-- https://bulma.io/documentation/ -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>What Even is Bulma?</title>
+    <!-- STYLESHEET / LINK THAT BULMA NEEDS IN ORDER TO WORK -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css"
+    />
+    <!-- CSS Classes-->
+    <style>
+      .center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- HERO -->
+    <!-- https://bulma.io/documentation/layout/hero/ -->
+    <section class="hero has-background-light">
+      <div class="hero-body">
+        <!-- CONTAINERS -->
+        <!-- https://bulma.io/documentation/layout/container/ -->
+        <div class="container">
+          <figure class="image center">
+            <img src="imgs/Bulma Logo Black.svg" style="max-width: 310px" ; />
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- IMAGE -->
+    <section class="p-5 m-5 has-text-centered">
+      <img src="imgs/MAIN2.png">
+    </section>
+
+
+    <!-- SECTION -->
+    <!-- https://bulma.io/documentation/layout/section/ -->
+    <section class="section">
+      <!-- CONTAINERS -->
+      <div class="container">
+        <!-- COLUMNS -->
+        <div class="columns">
+          <!-- COLUMN 1 -->
+          <div class="column">
+            <!-- NOTIFICATIONS -->
+            <!-- MEDIA -->
+            <article class="media notification is-info">
+              <!-- ICON -->
+              <!-- https://bulma.io/documentation/elements/icon/ -->
+             <svg
+                width="100"
+                height="100"
+                class="has-text-light py-1 pr-1"
+                viewBox="0 0 384 512"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+              <path
+                  d="M0 32l34.9 395.8L192 480l157.1-52.2L384 32H0zm313.1 80l-4.8 47.3L193 208.6l-.3 .1h111.5l-12.8 146.6-98.2 28.7-98.8-29.2-6.4-73.9h48.9l3.2 38.3 52.6 13.3 54.7-15.4 3.7-61.6-166.3-.5v-.1l-.2 .1-3.6-46.3L193.1 162l6.5-2.7H76.7L70.9 112h242.2z"
+                  fill="currentColor"
+              />
+              </svg>
+              <div class="media-content">
+                <div class="content">
+                  <!-- TITLE -->
+                  <h1 class="title is-size-3">Bulma</h1>
+                  <p class="is-size-5">
+                    Bulma is a modern CSS framework from @jgthms, based on
+                    Flexbox. Using Bulma, we can describe our website's design
+                    using just classes.
+                  </p>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <!-- COLUMN 2 -->
+          <div class="column">
+            <!-- MEDIA -->
+            <article class="media notification is-light">
+              <!-- ICON -->
+              <!-- https://bulma.io/documentation/elements/icon/ -->
+            <svg
+              width="100"
+              height="100"
+              class="has-text-dark py-1 pr-1"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect x="2" y="4" width="20" height="3" fill="currentColor"/>
+              <rect x="2" y="10.5" width="10" height="3" fill="currentColor"/>
+              <rect x="2" y="17" width="6" height="3" fill="currentColor"/>
+              <rect x="16" y="10.5" width="6" height="3" fill="currentColor"/>
+              <rect x="12" y="17" width="10" height="3" fill="currentColor"/>
+            </svg>
+
+              <div class="media-content">
+                <div class="content">
+                  <!-- TITLE -->
+                  <!-- https://bulma.io/documentation/elements/title/ -->
+                  <h1 class="title is-size-3 has-text-dark">Flexbox</h1>
+                  <p class="is-size-5 has-text-dark">
+                    Flexbox is a CSS spec that makes sectioning and aligning
+                    more natural. We don't need to know Flexbox but it's how
+                    Bulma works behind-the-scenes.
+                  </p>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <!-- COLUMN 3 -->
+          <div class="column">
+            <!-- MEDIA -->
+            <article class="media notification is-primary">
+              <!-- ICON -->
+              <!-- https://bulma.io/documentation/elements/icon/ -->
+             <svg
+              width="100"
+              height="100"
+              class="has-text-light py-1 pr-1"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect x="2" y="4" width="20" height="3" fill="currentColor"/>
+              <rect x="2" y="10" width="10" height="3" fill="currentColor"/>
+              <rect x="2" y="16" width="10" height="3" fill="currentColor"/>
+              <circle cx="16" cy="11.5" r="2.5" fill="currentColor"/>
+              <circle cx="16" cy="17.5" r="2.5" fill="currentColor"/>
+            </svg>
+
+              <div class="media-content">
+                <div class="content">
+                  <!-- TITLE -->
+                  <h1 class="title is-size-3">Classes</h1>
+                  <p class="is-size-5">
+                    Instead of writing our CSS per-element, we can use
+                    predefinted classes. With enough classes, we can describe
+                    our website design using semantics.
+                  </p>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION -->
+    <section class="section">
+      <!-- CONTAINERS -->
+      <div class="container">
+        <!-- COLUMNS -->
+        <div class="columns is-multiline">
+          <!-- COLUMN 1 -->
+          <div class="column is-one-third">
+            <!-- NOTIFICATIONS -->
+            <!-- MEDIA -->
+            <article class="media notification">
+              <!-- ICON -->
+              <svg
+                width="40"
+                height="29"
+                class = "has-text-warning" 
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="M7 11L7 13H17V11H7Z" fill="currentColor" />
+                <path
+                  d="M7.75732 18L9.17154 16.5858L11 18.4143V14H13V18.4142L14.8284 16.5858L16.2426 18L12 22.2427L7.75732 18Z"
+                  fill="currentColor"
+                />
+                <path
+                  d="M16.2427 5.99996L14.8285 7.41418L13 5.58572V9.99996H11L11 5.58579L9.17161 7.41418L7.75739 5.99996L12 1.75732L16.2427 5.99996Z"
+                  fill="currentColor"
+                />
+              </svg>
+              <div class="media-content">
+                <div class="content">
+                  <!-- TITLE -->
+                  <h1 class="title is-size-4">Columns</h1>
+                  <p class="subtitle is-size-5 py-2">
+                    The power of <b>Flexbox</b> in a simple interface
+                  </p>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <!-- COLUMN 2 -->
+          <div class="column is-one-third">
+            <!-- NOTIFICATIONS -->
+            <!-- MEDIA -->
+            <article class="media notification">
+              <!-- ICON -->
+              <svg
+                width="40"
+                height="29"
+                class = "has-text-warning" 
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M8.01562 6.98193C7.46334 6.98193 7.01562 7.43285 7.01562 7.98513C7.01562 8.53742 7.46334 8.98833 8.01563 8.98833H15.9659C16.5182 8.98833 16.9659 8.53742 16.9659 7.98513C16.9659 7.43285 16.5182 6.98193 15.9659 6.98193H8.01562Z"
+                  fill="currentColor"
+                />
+                <path
+                  d="M7.01562 12C7.01562 11.4477 7.46334 10.9968 8.01562 10.9968H15.9659C16.5182 10.9968 16.9659 11.4477 16.9659 12C16.9659 12.5523 16.5182 13.0032 15.9659 13.0032H8.01563C7.46334 13.0032 7.01562 12.5523 7.01562 12Z"
+                  fill="currentColor"
+                />
+                <path
+                  d="M8.0249 15.0122C7.47262 15.0122 7.0249 15.4631 7.0249 16.0154C7.0249 16.5677 7.47262 17.0186 8.0249 17.0186H15.9752C16.5275 17.0186 16.9752 16.5677 16.9752 16.0154C16.9752 15.4631 16.5275 15.0122 15.9752 15.0122H8.0249Z"
+                  fill="currentColor"
+                />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M3 6C3 4.34315 4.34315 3 6 3H18C19.6569 3 21 4.34315 21 6V18C21 19.6569 19.6569 21 18 21H6C4.34315 21 3 19.6569 3 18V6ZM6 5H18C18.5523 5 19 5.44772 19 6V18C19 18.5523 18.5523 19 18 19H6C5.44772 19 5 18.5523 5 18V6C5 5.44772 5.44772 5 6 5Z"
+                  fill="currentColor"
+                />
+              </svg>
+              <div class="media-content">
+                <div class="content">
+                  <!-- TITLE -->
+                  <h1 class="title is-size-4">Form</h1>
+                  <p class="subtitle is-size-5 py-2">
+                    The indispensable <b>form controls,</b> designed for maximum charity
+                  </p>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <!-- COLUMN 3 -->
+          <div class="column is-one-third">
+            <!-- NOTIFICATIONS -->
+            <!-- MEDIA -->
+            <article class="media notification">
+              <!-- ICON -->
+              <svg
+                width="40"
+                height="29"
+                viewBox="0 0 24 24"
+                fill="none"
+                class = "has-text-warning" 
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M7.7572 6.3431L11.9998 2.10046L16.2425 6.3431L11.9998 10.5857L7.7572 6.3431ZM10.5856 6.3431L11.9998 4.92889L13.4141 6.3431L11.9998 7.75732L10.5856 6.3431Z"
+                  fill="currentColor"
+                />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M2.10046 11.9999L6.3431 7.75726L10.5857 11.9999L6.3431 16.2425L2.10046 11.9999ZM4.92889 11.9999L6.3431 10.5857L7.75732 11.9999L6.3431 13.4141L4.92889 11.9999Z"
+                  fill="currentColor"
+                />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M13.4142 11.9999L17.6568 16.2425L21.8995 11.9999L17.6568 7.75726L13.4142 11.9999ZM17.6568 10.5857L16.2426 11.9999L17.6568 13.4141L19.071 11.9999L17.6568 10.5857Z"
+                  fill="currentColor"
+                />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M7.7572 17.6569L11.9998 13.4142L16.2425 17.6569L11.9998 21.8995L7.7572 17.6569ZM10.5856 17.6569L11.9998 16.2427L13.4141 17.6569L11.9998 19.0711L10.5856 17.6569Z"
+                  fill="currentColor"
+                />
+              </svg>
+              <div class="media-content">
+                <div class="content">
+                  <!-- TITLE -->
+                  <h1 class="title is-size-4">Components</h1>
+                  <p class="subtitle is-size-5 py-2">
+                    <b>Advanced</b> multi-part components with lots of possibilities
+                  </p>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <!-- COLUMN 4 -->
+         <div class="column is-one-third">
+            <!-- NOTIFICATIONS -->
+            <!-- MEDIA -->
+            <article class="media notification">
+              <!-- ICON -->
+             <svg
+                width="40"
+                height="29"
+                class = "has-text-warning" 
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M12 24C18.6274 24 24 18.6274 24 12C24 5.37258 18.6274 0 12 0C5.37258 0 0 5.37258 0 12C0 18.6274 5.37258 24 12 24ZM18.5793 19.531C20.6758 17.698 22 15.0036 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 14.9616 3.28743 17.6225 5.33317 19.4535L6.99999 10.9738H9.17026L12 6.07251L14.8297 10.9738H17L18.5793 19.531ZM16.0919 21.1272L15.2056 12.9738H8.79438L7.90814 21.1272C9.15715 21.688 10.5421 22 12 22C13.4579 22 14.8428 21.688 16.0919 21.1272Z"
+                  fill="currentColor"
+                />
+              </svg>
+              <div class="media-content">
+                <div class="content">
+                  <!-- TITLE -->
+                  <h1 class="title is-size-4">Modifiers</h1>
+                  <p class="subtitle is-size-5 py-2">
+                   An <b>easy-to-read</b> naming system designed for humans
+                  </p>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <!-- COLUMN 5 -->
+         <div class="column is-one-third">
+            <!-- NOTIFICATIONS -->
+            <!-- MEDIA -->
+            <article class="media notification">
+              <!-- ICON -->
+              <svg
+                width="40"
+                height="40"
+                viewBox="0 0 24 24"
+                class="has-text-warning"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="M11 7H7V11H11V7Z" fill="currentColor" />
+                <path d="M11 13H7V17H11V13Z" fill="currentColor" />
+                <path d="M13 13H17V17H13V13Z" fill="currentColor" />
+                <path d="M17 7H13V11H17V7Z" fill="currentColor" />
+              </svg>
+              <div class="media-content">
+                <div class="content">
+                  <!-- TITLE -->
+                  <h1 class="title is-size-4">Layout</h1>
+                  <p class="subtitle is-size-5 py-2">
+                    Design the <b>structure</b> of your webpage with these CSS classes
+                  </p>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <!-- COLUMN 6 -->
+          <div class="column is-one-third">
+            <!-- NOTIFICATIONS -->
+            <!-- MEDIA -->
+            <article class="media notification">
+              <!-- ICON -->
+              <svg
+                width="40"
+                height="29"
+                viewBox="0 0 24 24"
+                class="has-text-warning"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7.71689 5.72315C6.71581 6.18996 6.2827 7.37992 6.74951 8.381C7.21632 9.38208 8.40628 9.81519 9.40736 9.34838L20.2831 4.27696C21.2841 3.81015 21.7172 2.62019 21.2504 1.61911C20.7836 0.618028 19.5937 0.184918 18.5926 0.651729L7.71689 5.72315Z"
+                  fill="currentColor"
+                />
+                <path
+                  d="M4.74951 15.381C4.2827 14.3799 4.71581 13.19 5.71689 12.7231L16.5926 7.65173C17.5937 7.18492 18.7836 7.61803 19.2504 8.61911C19.7172 9.62019 19.2841 10.8101 18.2831 11.277L7.40736 16.3484C6.40628 16.8152 5.21632 16.3821 4.74951 15.381Z"
+                  fill="currentColor"
+                />
+                <path
+                  d="M2.74951 22.381C2.2827 21.3799 2.71581 20.19 3.71689 19.7231L14.5926 14.6517C15.5937 14.1849 16.7836 14.618 17.2504 15.6191C17.7172 16.6202 17.2841 17.8101 16.2831 18.277L5.40736 23.3484C4.40628 23.8152 3.21632 23.3821 2.74951 22.381Z"
+                  fill="currentColor"
+                />
+              </svg>
+              <div class="media-content">
+                <div class="content">
+                  <!-- TITLE -->
+                  <h1 class="title is-size-4">Elements</h1>
+                  <p class="subtitle is-size-5 py-2">
+                    Essential interface elements that only require a <b>single CSS class</b>
+                  </p>
+                </div>
+              </div>
+            </article>
+          </div>
+      </div>
+    </section>
+
+    <!-- SECTION -->
+   <section class="py-2 mb-4">
+    <div class="container">
+      <div class="columns">
+        <div class="column is-2" style="background-color: rgb(49, 49, 49)"></div>
+        <div class="column has-text-centered">
+          <a href="https://bulma.io/documentation/" class="button is-white is-medium">EXPLORE</a>
+        </div>
+        <div class="column is-2" style="background-color: rgb(49, 49, 49)";></div>
+      </div>
+    </div>
+  </section>
+  </body>
+</html>
