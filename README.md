@@ -8,7 +8,7 @@ This project provides a beginner-friendly explanation of the Bulma CSS framework
 
 <b>Extra Resources:
 - Documentation: https://bulma.io/
-- Project: https://www.youtube.com/watch?v=LBzZLzu2GKo
+- Project: https://youtu.be/LBzZLzu2GKo?si=Bb2OPLrWY5PIoJmR
 </b>
 
 # Related Projects
