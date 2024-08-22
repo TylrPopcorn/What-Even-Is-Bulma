@@ -15,4 +15,5 @@ Live: https://what-even-is-bulma.onrender.com/
 
 # Related Projects
 -  [Bulma Basics](https://github.com/TylrPopcorn/Bulma-Basics) - *Learn the basics of Bulma*
+-  [Bulma Blog](https://github.com/TylrPopcorn/Bulma-Blog) - *A simple blog created with Bulma CSS framework*
 -  [Projects List](https://github.com/TylrPopcorn/Projects-List) - *Explore other projects I have worked on*
